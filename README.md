@@ -30,13 +30,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot%20desktop.png)
-![](./images/screenshot%mobile.png)
+![](./images/screenshot%20mobile.png)
 
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Robert-Thaiyah/clipboard-landing-page)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://robert-thaiyah.github.io/clipboard-landing-page/)
 
 ## My process
 
