@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Poppins&display=swap');
+
+
+:root{
+    --strong-cyan:hsl(171, 66%, 44%);
+    --light-blue:hsl(233, 100%, 69%);
+    --dark-greyish-blue:hsl(210, 10%, 33%);
+    --grayish-blue:hsl(201, 11%, 66%);
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.6;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+  background-size: stretch;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none; 
+    color: var(--dark-greyish-blue); 
+}
+
+ul{
+    list-style: none;
+}
+
+h2,
+h3,
+p{
+    text-align: center;
+    
+}
+
+p ,a{
+    color: var(--grayish-blue);
+    font-size: 18px;
+}
+
+h2,
+h3{
+    color: var(--dark-greyish-blue);
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+.image-carousel .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.snippets .details{
+    text-align: left;
+}
+
+.details h3 ,.details p{
+    text-align: left;
+    position: relative;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+ 
+}
+
+.logo-footer img {
+    width: 50%;
+}
+
+ul a:hover{
+color: var(--strong-cyan);
+transition: 0.3s ease-in;
+}
+
+  
+  .fa-facebook:hover {
+    color: #1773EA;
+    transition: 0.2s ease-in;
+  }
+  
+  .fa-instagram:hover {
+    color: #B32E87;
+    transition: 0.2s ease-in;
+  }
+  
+  .fa-twitter:hover {
+    color: #1C9CEA;
+    transition: 0.2s ease-in;
+  }
+
+
+
+@media(max-width:768px){
+    .grid,
+    .grid-1,
+    .image-carousel .grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .flex,
+    .buttons .flex,
+    .image-carousel .flex
+    {
+        flex-direction: column;
+    }
+
+    .footer .container{
+        height: auto;
+    }
+    .snippets .content{
+        align-self: center;
+    }
+
+    .socials{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:500){
+
+
+}
